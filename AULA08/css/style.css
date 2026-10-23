@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: ghostwhite; 
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container Principal para centralizar e limitar a largura */
+.container {
+    max-width: 600px;
+    margin: 0 auto; 
+    background-color: #ffffff;
+    padding: 30px;
+    border: 2px solid #d4b595; 
+    border-radius: 12px;
+}
+
+/* Tamanho de fonte diferenciado para Títulos */
+.titulo-principal {
+    font-size: 2.2rem;
+    color: #5c3d2e;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: crimson;
+    border-bottom: 2px solid #f4ece1;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Tamanho de fonte para Textos gerais (listas) */
+ul, ol {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Desafio Extra: Utilizar Flexbox na seção de informações extras */
+.info-extra {
+    display: flex;
+    justify-content: space-around;
+    background-color: crimson;
+    color: rgb(223, 8, 8);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.info-card {
+    font-size: 1rem;
+}
+
+/* Estilização e Margens da Imagem */
+.imagem-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.imagem-receita {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Desafio Extra: Destacar os ingredientes com cor de fundo diferente */
+.secao-ingredientes {
+    background-color: #fff8f0; 
+    padding: 20px;
+    border-left: 5px solid #865439; 
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.secao-ingredientes ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+/* Ajustes de margem da seção de preparo */
+.secao-preparo ol {
+    padding-left: 20px;
+}
+
+.secao-preparo li {
+    margin-bottom: 10px;
+}
